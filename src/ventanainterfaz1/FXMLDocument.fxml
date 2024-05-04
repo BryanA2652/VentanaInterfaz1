@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox layoutX="233.0" layoutY="14.0" prefHeight="277.0" prefWidth="352.0">
+         <children>
+            <ListView fx:id="Lista" prefHeight="277.0" prefWidth="352.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="257.0" layoutY="328.0" prefHeight="58.0" prefWidth="328.0">
+         <children>
+            <TextField fx:id="txtexto" prefHeight="51.0" prefWidth="273.0" />
+         </children>
+      </HBox>
+      <Label fx:id="label1" layoutX="46.0" layoutY="34.0" prefHeight="28.0" prefWidth="105.0" text="Bryan Ayala">
+         <graphic>
+            <ImageView fx:id="img1" fitHeight="39.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagenes/Bob%20esponja.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label fx:id="label2" layoutX="46.0" layoutY="90.0" text="Carlos Zambrano">
+         <graphic>
+            <ImageView fx:id="img2" fitHeight="86.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagenes/Im2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label fx:id="label3" layoutX="40.0" layoutY="153.0" text="Luis Jimenez">
+         <graphic>
+            <ImageView fx:id="img3" fitHeight="61.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagenes/Im3.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label fx:id="label4" layoutX="48.0" layoutY="237.0" text="Rosa Martinez">
+         <graphic>
+            <ImageView fx:id="img4" fitHeight="51.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagenes/Im4.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label fx:id="label5" layoutX="27.0" layoutY="312.0" text="Luisa Aristega">
+         <graphic>
+            <ImageView fx:id="img5" fitHeight="64.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagenes/Im5.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+   </children>
+</AnchorPane>
